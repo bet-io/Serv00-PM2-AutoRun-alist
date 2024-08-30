@@ -3,8 +3,8 @@ name: autorun
 on:
   workflow_dispatch:
   schedule:
-    # 15分钟运行一次
-    - cron: '0/15 * * * *'
+    # 5分钟运行一次
+    - cron: '0/5 * * * *'
     
 
 jobs:
